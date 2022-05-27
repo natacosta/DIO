@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.menu{
+
+  display: flex;
+  float: inline-start;
+  background-image: url(./fotos/pexels-pixabay-270404\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 400px; 
+  width: 100%;
+}
+
+.fotoPrincipal{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.titulo{
+    padding-top: 20px;
+    line-height: 60px;
+}
+.container{
+    text-align: center;
+    line-height:20px;
+    padding: 20px;
+    
+} 
+
+.containerPrincipal{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border: 10px;
+    border-color: rgb(94, 94, 94);
+    border-radius: 10px;
+    border-style: solid;
+    background-color: whitesmoke;
+}
+
+.texto{
+    color: rgb(0, 0, 0);
+}
+.tecnologias{
+
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+footer{
+    background-color: whitesmoke;
+    text-align: center;
+    list-style: none;
+    line-height: 20px;
+}
