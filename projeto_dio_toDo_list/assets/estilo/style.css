@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+
+    display: block;
+    margin: auto;
+    background-color: rgb(226, 226, 226);
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.container h1{
+    padding: 15px;
+}
+
+.card{
+
+   text-align: center;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}

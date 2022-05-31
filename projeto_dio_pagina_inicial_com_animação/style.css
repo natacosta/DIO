@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.container{
+
+    height: 100vh;
+    width: 100hv;
+    background: linear-gradient(45deg ,  rgb(53, 148, 127) , rgb(118, 247, 191), rgb(95, 221, 157), rgb(73, 145, 103) , rgb(77, 204, 189));
+    background-size: 700vh ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: bacgrondTransition 10s ease-in-out infinite;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.social{
+    margin-top: 1rem;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    border: 1px solid;
+    padding: 30px 70px 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    transition: 0.5s cubic-bezier(0.5, 0.05, 0.65 , 0.01);  /* atraso de curva */
+}
+a:hover{
+
+    color: rgb(73, 145, 103);
+    background-color: rgb(253, 253, 253);
+}
+
+@keyframes bacgrondTransition{
+
+    0%{
+        background-position: 0% ;
+    }
+    50%{
+        background-position:  100%;
+    }
+    100%{
+        background-position: 0% ;
+    }
+}
